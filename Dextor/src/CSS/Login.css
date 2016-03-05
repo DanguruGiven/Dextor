@@ -1,0 +1,202 @@
+.root{
+    -fx-background-radius: 8,7,6;
+    -fx-font-weight:bold;
+    -fx-font-size: 12px;
+    -fx-text-varient:small-caps;
+    -fx-opacity: 0.9;
+}
+.icons:hover{
+    -fx-opacity: 0.5;
+}
+
+.VBox{
+ -fx-background-radius: 8, 7,6;
+    -fx-background-insets: 0,1, 2;
+    -fx-effect: innershadow(three-pass-box, #000000, 34.93,0.45,0.0,0.0);
+    -fx-opacity: 1;
+}
+/*--!The top panel of the frame*/
+.header{
+    -fx-background-color:  #7a7a7a;
+    -fx-background-radius: 10px 10px 0 0;
+    -fx-margin: 10px 10px 0px 10px;
+    -fx-opacity: 1;
+}
+
+.dextor{
+    -fx-font:bold 20px "forte";
+    -fx-text-fill:white;
+    -fx-opacity: 0.75;
+    -fx-font-size:20px;
+}
+/*The end of the top panel !--
+The main panel*/
+/*The user type text next to the choice box*/
+.user_type{
+    -fx-font-weight:bold;
+    -fx-font-size:12px;
+    -fx-font-varient:small-caps;
+    -fx-opacity: 0.9;
+}
+/*The choice box(Receptionist, Administrator)*/
+.choice_box{
+    -fx-background-radius: 8,7,6;
+    -fx-background-color: white;
+    -fx-background-insets: 0,1,2;
+    -fx-border-color: #E77E24;
+    -fx-border-radius: 6px;
+    -fx-border-width: 2px;
+    -fx-text-alignment: center;
+    /*-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );*/
+}
+.choice_box:hover{
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.check_box{
+    -fx-font-size:12px;
+    -fx-text-varient: small-caps;
+    -fx-opacity: 0.9;
+}
+
+.choice_box:collapsed{
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+/*The user Id text field*/
+.userid_field{
+ -fx-background-color: white;
+ -fx-background-radius: 8, 7,6;
+ -fx-border-color: #E77E24;
+ -fx-border-radius:6px;
+ -fx-border-width: 2px; 
+ -fx-font-size: 12px;
+ -fx-font-variant: small-caps;
+ -fx-font-style: normal;
+ -fx-alignment: center;
+ -fx-width:240;
+ -fx-height:30;
+ -fx-font-weight:bolder;
+ -fx-alignment: CENTER;
+}
+.userid_field:hover{
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    
+}
+.userid_field:focused{
+    -fx-text-alignment: center;
+   -fx-background-color: 
+        linear-gradient(#f2f2f2, #d6d6d6),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.password_field{
+ -fx-background-color: white;
+ -fx-background-radius: 8, 7,6;
+ -fx-border-color: #E77E24;
+ -fx-border-radius:6px;
+ -fx-border-width: 2px; 
+ -fx-font-size: 12px;
+ -fx-alignment: center;
+ -fx-width:240;
+ -fx-height:30;
+ -fx-font-weight:bolder;
+ -fx-alignment: CENTER;
+} 
+.password_field:hover{
+        -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.password_field:focused{
+   -fx-text-alignment: center;
+   -fx-background-color: 
+        linear-gradient(#f2f2f2, #d6d6d6),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.text{
+    -fx-font-weight:bold;
+    -fx-font-size: 12px;
+    -fx-text-varient:small-caps;
+    -fx-opacity: 0.9;
+}
+.content{
+    -fx-border-color: grey;
+    -fx-border-width: 1px;
+}
+.forgot_details{
+    -fx-font-weight:bold;
+    -fx-font-size:12px;
+    -fx-text-varient:small-caps;
+    -fx-underline: true;
+    -fx-opacity: 0.9;
+    -fx-alignment: center;
+    -fx-underline: true;
+}
+.forgot_details:hover{
+  -fx-background-color: #f2f2f2;
+  -fx-underline: false;
+}
+.login_button{
+    -fx-opacity: 0.9;
+    -fx-width:240;
+    -fx-height:30;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: greenyellow;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-background-radius: 8, 7,6;
+    -fx-background-insets: 0,1, 2;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+}
+.login_button:hover{
+    -fx-opacity: 1;
+}
+.login_button:pressed{
+   -fx-opacity: 0.7; 
+}
+.sign_up{
+    -fx-font-weight: bold;
+    -fx-font-size:12px;
+    -fx-text-varient:small-caps;
+    -fx-opacity: 0.9; 
+    -fx-underline: true;
+    -fx-alignment: center;
+}
+.sign_up:hover{
+   -fx-background-color: #f2f2f2;
+  -fx-underline: false;
+}
+.footer{
+    -fx-background-color:  #7a7a7a;
+    -fx-background-radius: 0 0 10px 10px;
+}
+.version_text{
+    -fx-font:bold 12px "Andalus";
+    -fx-text-fill: white;
+    -fx-text-varient: small-caps;
+}
+

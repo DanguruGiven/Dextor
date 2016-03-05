@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vbox" maxHeight="157.0" maxWidth="390.0" minHeight="157.0" minWidth="390.0" prefHeight="157.0" prefWidth="390.0" styleClass="vbox" stylesheets="@OptionalDialog.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="header" prefHeight="34.0" prefWidth="390.0" styleClass="header" stylesheets="@OptionalDialog.css">
+         <children>
+            <Label layoutX="33.0" layoutY="4.0" styleClass="header_text" stylesheets="@OptionalDialog.css" text="dextor." />
+            <ImageView fitHeight="20.0" fitWidth="25.0" layoutX="346.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" styleClass="icons">
+               <image>
+                  <Image url="@../Icons/close.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="4.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icons/icon1.png" />
+               </image>
+            </ImageView>
+         </children>
+         <VBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+      </Pane>
+      <Pane fx:id="content" prefHeight="123.0" prefWidth="390.0" styleClass="content" stylesheets="@OptionalDialog.css">
+         <children>
+            <Button layoutX="106.0" layoutY="48.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" styleClass="yes_button" stylesheets="@OptionalDialog.css" text="Yes" />
+            <Button layoutX="218.0" layoutY="48.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" styleClass="no_button" stylesheets="@OptionalDialog.css" text="No" />
+            <Label layoutX="98.0" layoutY="14.0" opacity="0.85" prefHeight="17.0" prefWidth="214.0" styleClass="optional_text" stylesheets="@OptionalDialog.css" text="         Are you sure?" />
+            <ImageView fitHeight="86.0" fitWidth="71.0" layoutX="14.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icons/w_info.png" />
+               </image>
+            </ImageView>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" />
+         </VBox.margin>
+      </Pane>
+   </children>
+   <effect>
+      <InnerShadow height="0.0" radius="9.1975" width="38.79" />
+   </effect>
+</VBox>

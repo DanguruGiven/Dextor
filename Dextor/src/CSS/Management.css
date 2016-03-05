@@ -1,0 +1,223 @@
+.root{
+    -fx-background-radius: 8, 7,6;
+    -fx-background-insets: 0,1, 2;
+    -fx-font-size:12px;
+    -fx-font-weight:bold;
+}
+.icons:hover{
+    -fx-opacity: 0.5;
+}
+.pane_name{
+    -fx-font:bold 20px  "Courier New";
+    -fx-underline: true;
+}
+.text{
+    -fx-font-size:12px;
+    -fx-font-weight:bold;
+}
+.text_field{
+    -fx-background-color: white;
+ -fx-background-radius:5px;
+ -fx-border-color: #E77E24;
+ -fx-border-radius:5px;
+ -fx-border-width: 0.5px;
+ -fx-transform:capitalized; 
+ -fx-font-size: 12px;
+ -fx-font-style: normal;
+ -fx-text-align: center;
+ -fx-font-weight:bold;
+ -fx-text-alignment: center;
+ -fx-alignment: center;
+}
+.text_field:hover{
+    -fx-background-color: white;
+    -fx-border-width: 2px;
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.text_field:focused{
+    -fx-background-color: 
+        linear-gradient(#f2f2f2, #d6d6d6),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.VBox{
+    -fx-background-radius: 8, 7,6;
+    -fx-background-insets: 0,1, 2;
+    -fx-effect: innershadow(three-pass-box, #000000, 34.93,0.45,0.0,0.0);
+    -fx-opacity: 0.95;
+}
+.header{
+    -fx-background-color:  #7a7a7a;
+    -fx-background-radius: 10px 10px 0 0;
+}
+.content{
+    -fx-border-color: black;
+-fx-border-width: 0.5px;
+-fx-background-color: white;
+-fx-margin: 0 10px 0 10px;
+}
+.footer{
+    -fx-background-color:  #7a7a7a;
+    -fx-background-radius: 0 0 10px 10px;
+}
+.nav{
+    -fx-background-color: linear-gradient(#808E8E, white);
+    -fx-background-radius: 0 6px 0 0;
+}
+.nav_button{
+    -fx-font: 15px  "Imprint MT Shadow";
+    -fx-text-alignment: center;
+    -fx-font-weight: bolder;
+    -fx-background-color: linear-gradient(#666666, white);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #000000;
+}
+.nav_button:hover{
+    -fx-opacity: 0.65;
+    /*-fx-background-color: linear-gradient(#ff9933 , white);*/
+}
+.nav_button:pressed{
+    -fx-opacity: 1;
+    -fx-border-color: #E77E24;
+    -fx-border-width: 2px;
+    -fx-background-insets: 0,1;
+    -fx-background-radius: 6,5;
+    -fx-border-radius: 6,5;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+.nav_button:active{
+     -fx-opacity: 1;
+    -fx-border-color: #E77E24;
+    -fx-border-width: 2px;
+    -fx-background-insets: 0,1;
+    -fx-background-radius: 6,5;
+    -fx-border-radius: 6,5;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+.nav_button:focused{
+     -fx-opacity: 1;
+    -fx-border-color: #E77E24;
+    -fx-border-width: 2px;
+    -fx-background-insets: 0,1;
+    -fx-background-radius: 6,5;
+    -fx-border-radius: 6,5;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+.dextor{
+    -fx-font:bold 20px "forte";
+    -fx-text-fill:white;
+    -fx-opacity: 0.75;
+}
+.addMembers_text{
+    -fx-font:bold 20px "Courier New";
+    -fx-text-fill:black;
+    -fx-opacity: 0.75;
+    -fx-underline: true;
+}
+.main_pane{
+    -fx-border-color: #E77E24;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8, 7,6;
+    -fx-border-insets: 0,1,2;
+    -fx-background-color: white;
+}
+.pane{
+ -fx-background-color: white;
+ -fx-background-radius:5px;
+ -fx-border-color: #E77E24;
+ -fx-border-radius:5px;
+ -fx-border-width: 2px;
+ -fx-opacity: 0.85;
+ -fx-font-size:12px;
+ -fx-font-weight:bold;
+}
+.pane_label{
+    -fx-opacity: 0.9;
+}
+.clear_button{
+    -fx-text-alignment: center;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#E77E24, white);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #000000;
+}
+.clear_button:hover{
+     -fx-opacity: 0.65;
+}
+.clear_button:pressed{
+    -fx-border-color: #E77E24;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6,5;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-opacity: 1;
+}
+.save_button{
+    -fx-text-alignment: center;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#006600, white);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #000000;
+}
+.save_button:hover{
+    -fx-opacity: 0.65;
+}
+.save_button:pressed{
+    -fx-border-color: #E77E24;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6,5;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-opacity: 1;
+}
+.delete_button{
+    -fx-text-alignment: center;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(red, red);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #000000;
+}
+.delete_button:hover{
+    -fx-opacity: 0.65;
+}
+.delete_button:pressed{
+    -fx-border-color: #E77E24;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6,5;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-opacity: 1;
+}
+.add_button{
+    -fx-alignment: center;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#666666, white);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #000000;
+}
+.version_text{
+     -fx-font:bold 12px "Andalus";
+    -fx-text-fill: white;
+    -fx-text-varient: small-caps;
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import jfxtras.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="440.0" styleClass="VBox" stylesheets="@Administrator.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Administrator.AdministratorController">
+   <children>
+      <Pane prefHeight="33.0" prefWidth="420.0" styleClass="header">
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+         <children>
+            <Label layoutX="39.0" layoutY="7.0" styleClass="dextor" text="dextor." />
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="386.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" styleClass="icons">
+               <image>
+                  <Image url="@../Icons/close.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="360.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" styleClass="icons">
+               <image>
+                  <Image url="@../Icons/minimize.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="7.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icons/icon1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane prefHeight="467.0" prefWidth="420.0" styleClass="content">
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+         <children>
+            <Label layoutX="134.0" layoutY="6.0" styleClass="pane_name" text="ADMINISTRATOR SIGN UP" underline="true" />
+            <Label layoutX="14.0" layoutY="29.0" text="PERSONAL DETAILS" />
+            <Pane layoutX="14.0" layoutY="46.0" prefHeight="262.0" prefWidth="391.0" styleClass="pane">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" styleClass="pane_label" text="Surname" />
+                  <Label layoutX="14.0" layoutY="43.0" styleClass="pane_label" text="Name(s)" />
+                  <Label layoutX="14.0" layoutY="75.0" styleClass="pane_label" text="Date Of Birth" />
+                  <Label layoutX="14.0" layoutY="101.0" styleClass="pane_label" text="Home Language" />
+                  <Label layoutX="15.0" layoutY="130.0" prefHeight="17.0" prefWidth="45.0" styleClass="pane_label" text="Cell No" />
+                  <Label layoutX="19.0" layoutY="160.0" styleClass="pane_label" text="Tel No" />
+                  <Label layoutX="15.0" layoutY="185.0" styleClass="pane_label" text="Address" />
+                  <TextField layoutX="128.0" layoutY="10.0" prefHeight="25.0" prefWidth="247.0" styleClass="text_field" />
+                  <TextField layoutX="128.0" layoutY="39.0" prefHeight="25.0" prefWidth="247.0" styleClass="text_field" />
+                  <CalendarTextField layoutX="128.0" layoutY="68.0" prefHeight="25.0" prefWidth="247.0" styleClass="text_field" />
+                  <ComboBox layoutX="128.0" layoutY="97.0" prefHeight="25.0" prefWidth="247.0" styleClass="text_field" />
+                  <TextField layoutX="128.0" layoutY="125.0" prefHeight="25.0" prefWidth="247.0" styleClass="text_field" />
+                  <TextField layoutX="128.0" layoutY="155.0" prefHeight="25.0" prefWidth="247.0" styleClass="text_field" />
+                  <TextArea layoutX="128.0" layoutY="185.0" prefHeight="62.0" prefWidth="247.0" styleClass="text_field" />
+               </children>
+            </Pane>
+            <Label layoutX="14.0" layoutY="308.0" text="LOGIN DETAILS" />
+            <Pane layoutX="15.0" layoutY="325.0" prefHeight="102.0" prefWidth="391.0" styleClass="pane">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" styleClass="pane_label" text="User ID" />
+                  <Label layoutX="14.0" layoutY="43.0" styleClass="pane_label" text="Password" />
+                  <Label layoutX="16.0" layoutY="73.0" styleClass="pane_label" text="Confirm Password" />
+                  <TextField layoutX="130.0" layoutY="10.0" prefHeight="25.0" prefWidth="247.0" styleClass="text_field" />
+                  <Label fx:id="generate" layoutX="130.0" layoutY="39.0" onMouseClicked="#generatePassword" prefHeight="25.0" prefWidth="62.0" styleClass="add_button" text="Generate" />
+                  <PasswordField layoutX="130.0" layoutY="69.0" prefHeight="25.0" prefWidth="247.0" styleClass="text_field" />
+                  <TextField layoutX="196.0" layoutY="39.0" prefHeight="25.0" prefWidth="180.0" styleClass="text_field" />
+               </children>
+            </Pane>
+            <Label layoutX="349.0" layoutY="432.0" prefHeight="25.0" prefWidth="53.0" styleClass="save_button" text="    Save" />
+            <Label layoutX="285.0" layoutY="432.0" prefHeight="25.0" prefWidth="53.0" styleClass="clear_button" text="   Clear" />
+            <ImageView fitHeight="20.0" fitWidth="26.0" layoutX="386.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" styleClass="icons">
+               <image>
+                  <Image url="@../Icons/info1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane prefHeight="35.0" prefWidth="420.0" styleClass="footer">
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" />
+         </VBox.margin>
+         <children>
+            <Label layoutX="14.0" layoutY="9.0" styleClass="version_text" text="Version 1.01.1" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

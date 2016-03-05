@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import jfxtras.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="412.0" prefWidth="638.0" styleClass="VBox" stylesheets="@Management.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="412.0" prefWidth="638.0" styleClass="pane">
+         <children>
+            <Pane layoutX="9.0" layoutY="14.0" prefHeight="385.0" prefWidth="618.0" styleClass="addMembers_text">
+               <children>
+                  <Pane layoutX="9.0" layoutY="33.0" prefHeight="135.0" prefWidth="600.0" styleClass="pane">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" styleClass="pane_label" text="Name" />
+                        <TextField layoutX="71.0" layoutY="10.0" prefHeight="25.0" prefWidth="215.0" styleClass="text_field" />
+                        <Label layoutX="300.0" layoutY="15.0" styleClass="pane_label" text="Date Of Birth" />
+                        <Label layoutX="14.0" layoutY="45.0" styleClass="pane_label" text="Allergies" />
+                        <Label layoutX="302.0" layoutY="45.0" styleClass="pane_label" text="Comment(s)" />
+                        <LocalDateTextField layoutX="382.0" layoutY="10.0" prefHeight="25.0" prefWidth="197.0" styleClass="text_field" />
+                        <TextArea layoutX="71.0" layoutY="45.0" prefHeight="80.0" prefWidth="215.0" styleClass="text_field" />
+                        <TextArea layoutX="382.0" layoutY="45.0" prefHeight="80.0" prefWidth="200.0" styleClass="text_field" />
+                     </children>
+                  </Pane>
+                  <TableView layoutX="9.0" layoutY="209.0" prefHeight="165.0" prefWidth="600.0" styleClass="pane">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="C1" />
+                      <TableColumn prefWidth="75.0" text="C2" />
+                    </columns>
+                  </TableView>
+                  <Label layoutX="444.0" layoutY="174.0" prefHeight="27.0" prefWidth="80.0" styleClass="add_button" text="New" />
+                  <Label layoutX="527.0" layoutY="174.0" prefHeight="27.0" prefWidth="80.0" styleClass="add_button" text="Add" />
+                  <Label layoutX="9.0" styleClass="addMembers_text" text="ADD MEMBERS" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</VBox>
